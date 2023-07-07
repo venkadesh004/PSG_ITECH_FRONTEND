@@ -1,0 +1,91 @@
+.CompanyContainer {
+    width: 90%;
+
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+
+    background: #FFF;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+
+    padding-right: 50px;
+
+    margin-top: 20px;
+
+    border-radius: 30px;
+}
+
+.company-profile-photo {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-profile-photo img {
+    height: 80%;
+}
+
+.company-content {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 20px;
+}
+
+.company-content-information-heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.company-content-information-keywords {
+    color: #595959;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.company-content-information-requirements {
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.company-content-information-apply {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.company-content-information-apply button {
+    background-color: #4285F4;
+    color: white;
+
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.company-content-information-apply p {
+    cursor: pointer;
+}
+
+.company-content-terms {
+    font-size: 18px;
+}
+
+.company-content-terms-workTime {
+    margin-top: 20px;
+}

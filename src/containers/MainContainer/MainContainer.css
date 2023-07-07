@@ -1,0 +1,12 @@
+.MainContainer {
+    width: 100%;
+}
+
+.company-searches {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
